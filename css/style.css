@@ -454,12 +454,9 @@ h5
 	background-color:#faf9f9;
 }
 
-.team .row{
-	grid-gap:10px;
-}
 .team .team-image{
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	object-fit:cover;
 }
@@ -607,9 +604,7 @@ h5
 	width: 200px;
 	height: 200px;
     object-fit: contain;
-
 }
-
 
 /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
