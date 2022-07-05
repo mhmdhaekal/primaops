@@ -100,9 +100,9 @@ h5
 
 .work,
 .footer,
-.contact,
 .team,
-.testimonial
+.testimonial,
+.client
 {
   	background-color: var(--primary);
 }
@@ -113,7 +113,7 @@ h5
 .newsletter,
 .location,
 .services,
-.client
+.contact
 {
   	background-color: var(--primary-light);
 }
@@ -447,7 +447,6 @@ h5
 }
 
 .team .team-card{
-	width:300px;
 	height:350px;
 	border: 10px;
 	border-width: 2px;
