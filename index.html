@@ -1,647 +1,891 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <title>Seleno.id</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Prima Optima Solusindo</title>
-    <meta name="google-site-verification" content="usaXN6UMzrtFf4ayGh7KNED4w85wCIWLgHw86844oXM" />
-    <meta name="description" content="PT. Prima Optima Solusindo">
-    <meta name="author" content="Prima Optima Solusindo">
-	<meta property="og:site_name" content="PT. Prima Optima Solusindo" /> 
-	<meta property="og:site" content="primaoptima.com" />
-	<meta property="og:title" content="Company Profile | PT. Prima Optima Solusindo"/> 
-	<meta property="og:description" content="Responsive Network with best Security for you" /> 
-	<meta property="og:image" content="https://primaoptima.com/assets/images/logo-pos.png" /> 
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css" rel="stylesheet">
-    <link href="./css/axiforma.css" rel="stylesheet">
-    <link href="./css/aos.min.css" rel="stylesheet">
-    <link href="./css/swiper.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-    <link rel="manifest" href="assets/site.webmanifest">
-
-</head>
-<body>
     
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
-        <div class="container">
+    <link href="images/logo.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
 
 
+  <div class="site-wrap">
 
-            <a class="navbar-brand logo-text" href="index.html">Prima Optima Solusindo</a>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
-            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
-                <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#header">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#products">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#client">Client</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+          <div class="col-4">
+            <a href="index.html">
+              <img class="m-0 site-logo" src="./images/selenowhite.png">
+            </a>
+          </div>
+
+          <div class="col-8">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#solution" class="nav-link">Services</a></li>
+                <!-- <li><a href="#services" class="nav-link">Services</a></li> -->
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#client" class="nav-link">Client</a></li>
+                <li><a href="#partner" class="nav-link">Partner</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="mailto:sales@seleno.id"></a></li>
+              </ul>
+            </nav>
+
+
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+
+          </div>
+
+        
+        </div>
+      </div>
+      
+    </header>
+
+
+    <div class="site-blocks-cover overlay bg-light mural-img" style="background-image: url('images/mural.png'); " id="home-section">
+
+      <div class="container">
+        <div class="row justify-content-center">
+
+          <div class="col-12 text-center align-self-center text-intro">
+            <div class="row justify-content-center">
+              <!-- <div class="col-lg-8">
+                <h1 class="text-white" data-aos="fade-up" data-aos-delay="">We Are Digital Services</h1>
+                <p class="lead text-white" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos magnam maxime voluptates libero, nobis impedit aut corrupti sunt possimus.</p>
+                <p data-aos="fade-up" data-aos-delay="200"><a href="#services-section" class="btn smoothscroll btn-primary">Our Services</a></p>
+
+              </div> -->
+            </div>
+          </div>
+            
+        </div>
+      </div>
+
+    </div>  
+
+    
+
+    <div class="site-section" id="about-section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 mb-4 position-relative">
+            <h2 class="section-title">About us</h2>
+          </div>
+          <div class="col-lg-4">
+            <p>SEGARA LENTERA TEKNOLOGI was built to raise up and deliver the latest updates of security technologies to our customers. With experiences of regular project management and deliver quality results, we believe it would exceed our client's expectations.</p>
+
+            <p>Our real-time knowledge of threat landscapes, ensures that our offerings could provide the best protection meanings to our customers.</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="images/about.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-4">
+            <p>COMMITMENT:</p>
+            <p>We were born to dedicate top level excellent services by building the national IT infrastructure to protect our customer gain impact of cyber attack.</p>
+
+            <p>Driven by technology powered business innovation and committed to bridge the gap between technology and business needs, we empower by building, integrating, and providing consultation the customer's need.</p>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section" id="solution">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-12 position-relative">
+            <h2 class="section-title text-center mb-5">Our solution</h2>
+          </div>
+          <button class="sub-card" type="button">Data Center and Cloud Infrastructure</button>
+                            <div class="content">
+                                <p class=""><span class="k-text">Enterprise Network and Security Infrastructure Design.</span></p>
+                                <p class=""><span class="k-text">Design Modern and Secure Data Center.</span>
+                                <p class=""><span class="k-text">Server and Storage Modernization.</span>
+                            </div>
+
+                            <button class="sub-card" type="button">Manage Service Provider</button>
+                            <div class="content">
+                                <p class=""><span class="k-text">Security Monitoring Support.</span></p>
+                                <p class=""><span class="k-text">Monthly Report Security Analytics.</span></p>
+                                <p class=""><span class="k-text">Network and Infrastructure Monitoring Support.</span></p>
+                                <p class=""><span class="k-text">Maintenance Data Center Infrastructure.</span></p>
+                            </div>
+
+                            <button class="sub-card" type="button">Enterprise Dev. Collaboration</button>
+                            <div class="content">
+                                <p class=""><span class="k-text">Office Automation Development.</span></p>
+                                <p class=""><span class="k-text">Workflow Collaboration and Integration.</span></p>
+                            </div>
+
+                            <button class="sub-card" type="button">Adaptive Security Architecture</button>
+                            <div class="content">
+                                <p class=""><span class="k-text">Offer you a security architecture that not only protective and preventive but also drive the predictive and response solutions.</span></p>
+                            </div>
+                            
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section" id="services">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title">How we manage</h2>
+          </div>
+          
+          <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="">
+            <div class="service d-flex h-100">
+              <div class="svg-icon-new">
+                <img src="images/flaticon/png/BEHAVIOR ANALYTICS.png" alt="Image" class="img-fluid">
+              </div>
+              <div class="service-about">
+                <h3>Behavior Analytics</h3>
+                <p>Optimize resources. Anticipate business opportunities. Better Data, Better Decisions.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="service d-flex h-100">
+              <div class="svg-icon">
+                <img src="images/flaticon/png/IMPLEMENTATION & TRAINING.png" alt="Image" class="img-fluid">
+              </div>
+              <div class="service-about">
+                <h3>Implementation & Training</h3>
+                <p>Installations and Configurations.
+                  Periodically Review and Consultancy Services.
+                  Training and Implementation Service.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="">
+            <div class="service d-flex h-100">
+              <div class="svg-icon">
+                <img src="images/flaticon/svg/003-travel-2.svg" alt="Image" class="img-fluid">
+              </div>
+              <div class="service-about">
+                <h3>Modern Data Center Solution</h3>
+                <p>Modernize your organization infrastructure, migrate applications and data to the cloud, and build analytics solutions on data platforms in the cloud.</p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="service d-flex h-100">
+              <div class="svg-icon">
+                <img src="images/flaticon/svg/004-travel-3.svg" alt="Image" class="img-fluid">
+              </div>
+              <div class="service-about">
+                <h3>Adaptive Security Architecture</h3>
+                <p>Offer you a security architecture that not only protective and preventive but also drive the predictive and response solutions.</p>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="">
+            <div class="service d-flex h-100">
+              <div class="svg-icon">
+                <img src="images/flaticon/png/SECURITY ASSESSMENT.png" alt="Image" class="img-fluid">
+              </div>
+              <div class="service-about">
+                <h3>Security Assessment</h3>
+                <p>Security Assessment also called attacking simulation for computer system, network, or web application to find security vulnerabilities that attacker could exploit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="service d-flex h-100">
+              <div class="svg-icon">
+                <img src="images/flaticon/png/RESEARCH AND DEVELOPMENT.png" alt="Image" class="img-fluid">
+              </div>
+              <div class="service-about">
+                <h3>Research and Development</h3>
+                <p>Our researchers are in cyber security space, we are doing developing IT security infrastructure. Secure mobile application and many more.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+<section class="site-section" id="products">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-3 position-relative">
+        <h2 class="section-title text-center mb-5">Product</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-lg-6 my-3">
+        <div class="product-card mx-auto">
+          <div class="product-card-inner bg-light">
+            <div class="product-card-front">
+              <div class="container">
+                <img src="./images/product/monitor.png" class="img-fluid-new d-flex mx-auto">
+                <h6>Global Monitoring and Communication</h6>
+              </div>
+            </div>
+            <div class="product-card-back">
+              <h4><b>Global Coverage</b></h4>
+              <h5>The iridium global network of 66 low-earth-orbit (LEO) satellites offer faster Connection Time & Global Coverage.</h5>
+              <h4><b>Move Accurate Reports</b></h4>
+              <h5>Using W65 84. Cakrawala Armada offers move accurate positioning report.</h5>
+              <h4><b>Cakrawala Platform</b></h4>
+              <h5>Cakrawala Armada communicate directly to cakrawala platform-web portal, where you can monitor, track, update and manage all your asset.</h5>
+              <h4><b>AIS</b></h4>
+              <h5>Receive AIS information from surrounding vessel Capture Radar data, Capture data from long range camera.</h5>
+              <h4><b>Connectivity</b></h4>
+              <h5>4G, LEO Satellite Communication.</h5>
+              <h4><b>Sensory Data Acquisition</b></h4>
+              <h5>Ais Receiver, Radar, Long range camera.</h5>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+        <!-- <div class="col-lg-6 my-3">
+          <div class="product-card mx-auto">
+            <div class="product-card-inner bg-light">
+              <div class="product-card-front">
+                <div class="container">
+                  <img src="./images/product/suit.png" class="img-fluid-new d-flex mx-auto">
+                  <h6>Augmented Reality Technology</h6>
+                </div>
+              </div>
+              <div class="product-card-back">
+                <h4><b>Unstoppable Scenario</b></h4> 
+                <h5>Apart from playing the VR scenario, this simulation platform can be used to add new scenarios.</h5>
+                <h4><b>Scenario Editor</b></h4>
+                <h5>Have an editor that allows you to prepare scenarios, such as 3D environment (urban, forest, etc.), virtual characteristics and settings.</h5>
+                <h4><b>Multiplayer Interaction System</b></h4>
+                <h5>Our VR platform can be used by more than one personnel. Allows for training coordination.</h5>
+                <h4><b>Supports Simulation of Rescue Tools</b></h4>
+                <h5>The combination of hardware and software makes it possible to experience virtual tools without having to own them.</h5>
+                <h4><b>Replay System</b></h4>
+                <h5>This feature allows the trainer to provide advice & improvement points in an active way to attend training.</h5>
+                <h4><b>Live Monitoring System</b></h4>
+                <h5>This feature makes it possible to practice coordination and communication with the operator behind the service.</h5>
+              </div>
+            </div>
+          </div>
+          </div> -->
+
+          <div class="col-lg-6 my-3 align-items-center">
+            <div class="product-card mx-auto">
+              <div class="product-card-inner bg-light">
+                <div class="product-card-front">
+                  <div class="container">
+                    <img src="./images/product/phone.png" class="img-fluid-new d-flex mx-auto">
+                    <h6 class="text-center mt-5">Kuratif</h6>
+                  </div>
+                </div>
+                <div class="product-card-back">
+                  <h4><b>Global Safety Standard</b></h4>
+                  <h5>AWS certification security standards, HIPAA Compliance, and applications are registered with KOMINFO.</h5>
+                  <h4><b>Periodic Vulnerability Test</b></h4>
+                  <h5>Periodic vulnerability test which can ensure the are no loopholes from the application.</h5>
+                  <h4><b>Management Data Service</b></h4>
+                  <h5>Periodic data backup with Amazon S3 and data management that ensures data availability.</h5>
+                  <h4><b>Platform Resource Automation</b></h4>
+                  <h5>Manage resources automatically in order to maximize the smooth processing data.</h5>
+                  <h4><b>Server Monitoring and System Health</b></h4>
+                  <h5>Monitor proactive sustainability systems on a regular basis.</h5>
+                </div>
+              </div>
+            </div>
+            
+            <div class="py-4">
+              <a href="./files/Kuratif_Brochure.pdf">
+                <button class="d-flex mx-auto btn btn-primary">More Info</button>
+              </a>
+            </div>
+          </div>
+          
+
+          <div class="col-lg-6 my-3">
+            <div class="product-card mx-auto">
+              <div class="product-card-inner bg-light">
+                <div class="product-card-front">
+                  <div class="container">
+                    <img src="./images/product/smartcity.png" class="img-fluid-new d-flex mx-auto">
+                    <h6 class="text-center mt-5">Smart City</h6>
+                  </div>
+                </div>
+                <div class="product-card-back">
+                  <h4><b>Smart Governance</b></h4>
+                  <h5>Improvement of public service performance, government performance, and performance of public policy implementation.</h5>
+                  <h4><b>Integrated Geo-Data Driven for Governance & Branding</b></h4>
+                  <h5>Integrated Data and Maps, Integrated Dashboard and Command Center, and Integrated Communication.</h5>
+                  <h4><b>Monitoring (Dashboard)</b></h4>
+                  <h5>A solution that helps monitor all tax transactions, local revenues, and infrastructure.</h5>
+                  <h4><b>Integrated Health Facility and Monitoring</b></h4>
+                  <h5>Maximizing the performance of health facilities in all regions.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="py-4">
+              <a href="./files/Desa Proaktif-Revisi 10.pdf">
+                <button class="d-flex mx-auto btn btn-primary">More Info</button>
+              </a>
+            </div>
+          </div>
+      </div>
+
+      <!-- <div>
+        <div class="col-lg-12">
+          <input href="download.php" type="submit" class="btn btn-primary" value="Download!">
+          <input href="download.php" type="submit" class="btn btn-primary" value="Download!">
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+</section>
+
+    <section class="site-section" id="client">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-5">Client</h2>
+          </div>
+        </div>
+      </div>
+      <div class="logo-slider">
+        <div>
+          <img src="./images/client/bsre.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/client/bssn.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/client/dprri.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/client/esdm.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/client/infomedia.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/client/pds.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/client/perpusnas.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/client/telkomsigma.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/client/toyota.png" class="logo-img">
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section" id="partner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-5">Technology partner</h2>
+          </div>
+        </div>
+      </div>
+      <div class="logo-slider">
+        <div>
+          <img src="./images/partner/corelight.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/corsight.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/elastic.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/entrust.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/f5.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/fortinet.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/group_ib.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/huawei.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/imperva.jpg" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/infoblox.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/juniper.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/paloalto.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/purestorage.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/solarwinds.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/sonatype.png" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/thales.svg" class="logo-img">
+        </div>
+        <div>
+          <img src="./images/partner/vectra.png" class="logo-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="site-section block__62272" id="projects-section">
+      
+
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 position-relative">
+            <h2 class="section-title text-center mb-5">Projects</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-5" data-aos="fade">
+          <div id="filters" class="filters text-center button-group col-md-7">
+            <button class="btn btn-primary active" data-filter="*">All</button>
+            <button class="btn btn-primary" data-filter=".web">Web</button>
+            <button class="btn btn-primary" data-filter=".design">Design</button>
+            <button class="btn btn-primary" data-filter=".brand">Brand</button>
+          </div>
+        </div>  
+        
+        <div id="posts" class="row no-gutter">
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_5.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_5.jpg">
+            </a>
+          </div>
+
+          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_6.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_6.jpg">
+            </a>
+          </div>
+
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_7.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_7.jpg">
+            </a>
+          </div>
+
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_1.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_1.jpg">
+            </a>
+          </div>
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_2.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_2.jpg">
+            </a>
+          </div>
+
+          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_3.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_3.jpg">
+            </a>
+          </div>
+
+          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+
+            <a href="images/img_4.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_4.jpg">
+            </a>
+
+          </div>
+
+          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_8.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_8.jpg">
+            </a>
+          </div>
+
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_9.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_9.jpg">
+            </a>
+          </div>
+
+          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_10.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_10.jpg">
+            </a>
+          </div>
+
+          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/img_11.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_11.jpg">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </section> -->
+
+
+    <!-- <section class="site-section bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-5 text-white">What Client Are Sayings</h2>
+          </div>
+        </div>
+        <div class="owl-carousel slide-one-item">
+          <div class="slide">
+            <blockquote>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              <p><cite>&mdash; Jean Smith</cite></p>
+            </blockquote>
+          </div>
+          <div class="slide">
+            <blockquote>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+              <p><cite>&mdash; Carl Spencer</cite></p>
+            </blockquote>
+          </div>
+          <div class="slide">
+            <blockquote>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+              <p><cite>&mdash; Ryan Peters</cite></p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    
+    <!-- <section class="site-section bg-light" id="blog-section">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-5">Blog Posts</h2>
+          </div>
+
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
+            <div class="blog_entry">
+              <a href="single.html"><img src="images/blog_1.jpg" alt="Image" class="img-fluid"></a>
+              <div class="p-4 bg-white">
+                <h3><a href="single.html">A small river named Duden flows by their place</a></h3>
+                <span class="date">April 25, 2019</span>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p class="more"><a href="single.html">Read More</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
+            <div class="blog_entry">
+              <a href="single.html"><img src="images/blog_2.jpg" alt="Image" class="img-fluid"></a>
+              <div class="p-4 bg-white">
+                <h3><a href="single.html">A small river named Duden flows by their place</a></h3>
+                <span class="date">April 25, 2019</span>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p class="more"><a href="single.html">Read More</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
+            <div class="blog_entry">
+              <a href="single.html"><img src="images/blog_3.jpg" alt="Image" class="img-fluid"></a>
+              <div class="p-4 bg-white">
+                <h3><a href="single.html">A small river named Duden flows by their place</a></h3>
+                <span class="date">April 25, 2019</span>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p class="more"><a href="single.html">Read More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- <section class="site-section" id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-5">Contact Form</h2>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-6">
+            <form action="#" class="form">
+              <div class="row mb-4">
+                <div class="form-group col-6">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="form-group col-6">
+                  <input type="text" class="form-control" placeholder="Full name">
+                </div>
+              </div>
+
+              <div class="row mb-4">
+                <div class="form-group col-12">
+                  <input type="email" class="form-control" placeholder="Email address">
+                </div>
+              </div>
+
+              <div class="row mb-4">
+                <div class="form-group col-12">
+                  <input type="text" class="form-control" placeholder="Subject of the message">
+                </div>
+              </div>
+
+              <div class="row mb-4">
+                <div class="form-group col-12">
+                  <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Type your message here.."></textarea>
+                </div>
+              </div>
+              
+            </form>
+          </div>
+          <div class="col-lg-5">
+            <h3>Jakarta</h3>
+            <ul class="list-unstyled mb-5">
+              <li class="mb-3">
+                <strong class="d-block mb-1">Address</strong>
+                <p><span>18 Office Park, 15th Floor,</span> Jalan TB Simatupang No. 18 Kebagusan, Pasar Minggu, Jakarta Selatan, DKI Jakarta, 12520</p>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Phone</strong>
+                <span>+62 21 5020 7737</span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Email</strong>
+                <span>sales@seleno.id</span>
+              </li>
+            </ul>
+
+            <h3>New York</h3>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <strong class="d-block mb-1">Address</strong>
+                <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Phone</strong>
+                <span>+1 232 3235 324</span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Email</strong>
+                <span>youremail@domain.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <footer class="site-section bg-light footer">
+      <div class="container" id="contact">
+        <div class="row mb-5">
+          <div class="col-md-3">
+            <h3 class="footer-title">Locations</h3>
+            <p><span class="d-inline-block d-md-block">18 Office Park, 15th Floor,</span> Jalan TB Simatupang No. 18 Kebagusan, Pasar Minggu, Jakarta Selatan, DKI Jakarta, 12520</p>
+          </div>
+          <div class="col-md-5 mx-auto">
+            <div class="row">
+              <div class="col-lg-4">
+                <h3 class="footer-title">Contact Us</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#">+62 21 5020 7737</a></li>
+                  <li><a href="#">sales@seleno.id</a></li>
+                  <li><a href="#">info@seleno.id</a></li>
                 </ul>
-                <span class="nav-item social-icons">
-                    <span class="fa-stack">
-                        <a href="http://wa.me/6287700030600" target="_blank">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-whatsapp fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-instagram fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </span>
-                
-            </div> 
-        </div> 
-    </nav> 
-
-    <section class="row home d-flex py-5 align-items-center" id="header">
-        <div class="col-lg-7 container text-dark py-5 px-5"  data-aos="fade-right"> 
-            <h1 class="headline">Connect Your <span class="home_text">Network</span><br><span class="home_text">Secure</span> it with us</h1>
-            <!--div class="d-flex align-items-center">
-                <p class="p-2"><i class="fas fa-user-lock fa-lg"></i></p>
-                <p>Improve your security.</p>  
+              </div>
+              <div class="col-lg-4">
+                <h3 class="footer-title">Follow Us</h3>
+                <ul class="list-unstyled">
+                  <li><a href="https://www.instagram.com/selenoid.tech/" class="social-circle m-2"><span class="icon-instagram"></span></a></li>
+                  <!-- <li><a href="#">Web Design</a></li> -->
+                  <!-- <li><a href="#">Web Development</a></li> -->
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <div class="mx-auto btn btn-primary">
+                  <a href="mailto:sales@seleno.id">Reaching out to us via email!</a>
+                </div>
+              </div>
+              <!-- <div class="col-lg-4">
+                <h3 class="footer-title">Templates</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#">Illustration</a></li>
+                  <li><a href="#">Video Editing</a></li>
+                  <li><a href="#">Copywriting</a></li>
+                </ul>
+              </div> -->
             </div>
-            <div class="d-flex align-items-center">
-                <p class="p-2"><i class="fas fa-satellite-dish fa-lg"></i></p>
-                <p>Connect your network.</p>  
-            </div-->
-        </div> 
-        <div class="col-lg-3 container  align-items-center d-flex ms-auto py-3 px-5" data-aos="fade-right"> 
-            <img class="logo-image img-fluid" src="./assets/images/logo-pos.png" alt="Prima Optima Solusindo" >
+          </div>
+          <!-- <div class="col-md-3">
+            <h3 class="footer-title">Follow Us</h3>
+            <a href="#" class="social-circle m-2"><span class="icon-twitter"></span></a>
+            <a href="#" class="social-circle m-2"><span class="icon-facebook"></span></a>
+            <a href="https://www.instagram.com/segara.lt/" class="social-circle m-2"><span class="icon-instagram"></span></a>
+            <a href="#" class="social-circle m-2"><span class="icon-dribbble"></span></a>
+            <a href="#" class="social-circle m-2"><span class="icon-linkedin"></span></a>
+          </div> -->
         </div>
-    </section> 
 
-    <section class="about d-flex align-items-center text-dark py-5" id="about">
-        <div class="container" >
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-9" data-aos="fade-right">
-                    <h5>ABOUT US</h5>
-                    <h1>We improve your<br>network and security quality</h1>
-                    <p class="py-2 para-light">PT. Prima Optima Solusindo is a company that focuses on networking and cyber security development. We provide a variety of hardware and software to fullfil the networking that needs by your company. We also provide solutions for your network and cyber security problems.</p>
-                    <p class="py-2 para-light">We provide a variety of networking and cybersecurity products from trusted companies that focus on developing network and cyber security. Connect your network, Secure with us.</p>
+        <!-- <div class="row">
+          <div class="col-12 text-center">
+            <p>
+                Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made with <i class="icon-heart"
+                  aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+              </p>  
+          </div>
+        </div> -->
+      </div>
+    </footer>
 
-                </div>
-                <div class="col-lg-3 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                </div>
-            </div> 
-        </div>
-    </section> 
-   
-    <section class="team d-flex text-dark py-5 align-items-center" id="team">
-        <div class="container">
-            <div class="row d-flex align-items-center text-center">
-                <h5>OUR STAFF</h5>
-                <h2>Meet Our Staff</h2>
-                <h4>Get acquainted with our company management staff</h4>
-            </div>
-            <div class="container align-items-center ms-auto">
-            <div class="row py-5 px-3 gy-5 align-items-center" data-aos="fade-up">
-                <div class="col-sm-4 align-items-center">
-                    <div class="card py-5 px-5">
-                        <div class="d-flex">
-                        <img class="team-image d-flex mx-auto" src="./assets/images/rishandi.jpg">
-                        </div>
-                        <div class="row d-flex py-3 text-center">
-                            <h5>Rishandi</h5>
-                            <h6>President Director</h6>
-                        </div>
-                        <div class="d-flex"></div>
-                        <div class="row d-flex text-center">
-                            <span class="team-item social-icons">
-                                <span class="fa-stack">
-                                    <a href="" target="_blank">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-linkedin fa-stack-1x py-3"></i>
-                                    </a>
-                                </span>
-                                <span class="fa-stack">
-                                    <a href="#your-link">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-instagram fa-stack-1x py-3"></i>
-                                    </a>
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-4 lign-items-center">
-                    <div class="card py-5 px-5">
-                        <div class="d-flex">
-                        <img class="team-image d-flex mx-auto" src="./assets/images/chandra.jpg">
-                        </div>
-                        <div class="row d-flex py-3 text-center">
-                            <h5>Candra Irawan</h5>
-                            <h6>Commissioner</h6>
-                        </div>
-                        <div class="row d-flex text-center">
-                            <span class="team-item social-icons">
-                                <span class="fa-stack">
-                                    <a href="" target="_blank">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-linkedin fa-stack-1x py-3"></i>
-                                    </a>
-                                </span>
-                                <span class="fa-stack">
-                                    <a href="#your-link">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-instagram fa-stack-1x py-3"></i>
-                                    </a>
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-4 align-items-center">
-                    <div class="card py-5 px-5">
-                        <div class="d-flex">
-                        <img class="team-image d-flex mx-auto" src="./assets/images/andry.jpg">
-                        </div>
-                        <div class="row d-flex py-3 text-center">
-                            <h5>Andry Hermawan</h5>
-                            <h6>Director</h6>
-                        </div>
-                        <div class="row d-flex text-center">
-                            <span class="team-item social-icons">
-                                <span class="fa-stack">
-                                    <a href="" target="_blank">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-linkedin fa-stack-1x py-3"></i>
-                                    </a>
-                                </span>
-                                <span class="fa-stack">
-                                    <a href="#your-link">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-instagram fa-stack-1x py-3"></i>
-                                    </a>
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </section>
+  </div> <!-- .site-wrap -->
 
-    <section class="services d-flex align-items-center py-5" id="services">
-        <div class="container text-dark">
-            <div class="text-center pb-4" >
-                <h5>OUR SERVICES</h5> 
-                <h2 class="py-2">Explore unlimited possibilities</h2>
-                <h4 class="para-light">In transformation to digitalized, security is all we need, we have end-to-end solution to realized it.</h4>
-            </div>
-            <div class="row gy-4 py-2" data-aos="zoom-in">
-                <div class="col-lg-4">
-                    <div class="card bg-white d-flex">
-                        <i class="fas fa-chart-area fa-2x"></i>
-                        <h4 class="py-2">Data Analytics</h4>
-                        <p class="para-light">Help to analyze your raw data to optimize your resource, digitalized it, and it helps your company to make right decision.</p>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
 
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-white d-flex">
-                        <i class="fas fa-cloud fa-2x"></i>
-                        <h4 class="py-2"> Data Center Solution</h4>
-                        <p class="para-light">Help you build your own data center for your company, moved it to cloud, analyze, and keep your data save. </p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-white d-flex">
-                        <i class="fas fa-bug fa-2x"></i>
-                        <h4 class="py-2">Security Testing</h4>
-                        <p class="para-light">We will try attack your system, network, or web application to find security vulnerabilites that attacker could exploit.</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-white d-flex">
-                        <i class="fas fa-user-shield fa-2x"></i>
-                        <h4 class="py-2">Secure Your Network</h4>
-                        <p class="para-light">Trust your network to us, we will secure it and make sure no one can break through it, endless support until your worry is gone.</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-white d-flex">
-                        <i class="fas fa-users fa-2x"></i>
-                        <h4 class="py-2">Innovate Together</h4>
-                        <p class="para-light">Collaborate with us to maximize resource and innovate together for making greatest cyber security system.</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-white d-flex">
-                        <i class="fas fa-server fa-2x"></i>
-                        <h4 class="py-2">Easier with Network</h4>
-                        <p class="para-light">Connect your work to the network. Make everything easier, integrated and more effective.</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-white d-flex">
-                        <i class="fas fa-truck fa-2x"></i>
-                        <h4 class="py-2">Supply Chain</h4>
-                        <p class="para-light">Let us help distribute your products or services to your target customers.</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-white d-flex">
-                        <i class="fas fa-tractor fa-2x"></i>
-                        <h4 class="py-2">Heavy Equiqment</h4>
-                        <p class="para-light">Need heavy equipment for your company? we will provide it for you.</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-white d-flex">
-                        <i class="fas fa-bolt fa-2x"></i>
-                        <h4 class="py-2">Mechanical Electrical</h4>
-                        <p class="para-light">Provide service in mechanical electrical for all of your needs.</p>
-                    </div>                    
-                </div>
-                
-            </div>
-        </div> 
-    </section> 
+  
+  <script src="js/main.js"></script>
 
-
-<!--
-     <section class="slider-1 testimonial text-dark d-flex align-items-center py-5" id="products">
-        <div class="container align-items-center ms-auto">
-            <div class="row">
-                <div class="text-center py-5">
-                    <h5>OUR PRODUCTS</h5>
-                    <h2 class="py-2">Provide Tool and Solution</h2>
-                    <h4 class="para-light">We offer best products for your network and we also offer technical solutions for you</h4>
-                </div>
-            </div> 
-            <div class="row p-2" data-aos="fade-up">
-                <div class="col-lg-12">
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/lenovo.png" alt="Lenovo">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Lenovo Server offers deliver powerful performance for SMBs to large instutuions. <br><br><br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.lenovo.com/id/in/data-center/servers?orgRef=https%253A%252F%252Fwww.google.com%252F" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/dell.png" alt="DELL EMC">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Dell EMC offers full-featured enterprise server designed to optimize workload performance and data center density.<br><br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.dell.com/en-us/blog/tags/dell-emc/" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/imperva.png" alt="Imperva">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Imperva offers cyber security software and services company which provides protection to enterprise data and application software.<br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.imperva.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/infoblox.png" alt="Infoblox">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Infoblox offers the world's leading on-premises platform for automating DNS, DHCP and IPAM and simplifying complex, dynamic network services for any size organization.</p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.infoblox.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/checkpoint.png" alt="Check Point">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Check Point offers multilevel security architecture for protect customer from malware, ransomware and other types of attack which defends enterprises cloud and network.</p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.checkpoint.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/Entrust.png" alt="Entrust">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Entrust offers security with a greater level of trust, in every interaction and everywhere. <br><br><br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.entrust.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/sandvine.png" alt="Sandvine">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Sandvine offers network policy control products that are designed to implement broad network policies, including congestion management, and security.<br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.sandvine.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/radware.png" alt="Radware">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Radware offers global leader of cyber security and application delivery solutions for physical, cloud, and software defined data centers.<br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.radware.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/aruba.png" alt="Aruba">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Aruba offers global leader in secure, intelligent edge-to-cloud networking solutions that use AI to automate the network<br><br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.arubanetworks.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/HPE.png" alt="Hewlett Packard Enterprise">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>HPE offers global edge-to-cloud business by helping you connect, protect, analyze, and act on all your data and applications. <br><br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.hpe.com/us/en/home.html" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/vmware.png" alt="vmware">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>VMware offers platform for the virtualization of IT infrastructure as an alternative to dedicated hosts.<br><br><br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.vmware.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/PureStorage.png" alt="Pure Storage">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Pure Storage offers modern data experience which allowing you to rely on cloud-ready solutions and best experience in technology.<br><br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.purestorage.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/fortinet.png" alt="Fortinet">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Fortinet offers high-performance network security solutions that protect your network, users, and data from continually evolving threats. <br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.fortinet.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/elastic.png" alt="Elastic">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Elastic offers search-powered solution for everyone and find what they need faster, while keeping applications running smoothly, and protecting against cyber threats.<br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.elastic.co" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <div class="d-flex">
-                                        <img class="card-image" src="./assets/images/paloalto.png" alt="Paloalto Networks">
-                                        </div>
-                                        <div class="align-items-center d-flex py-5">
-                                            <p>Palo Alto Networks offers cybersecurity platform which provides network security, cloud security, and various cloud-delivered security services. <br><br></p>
-                                        </div>
-                                        <div class="my-3">
-                                            <a class="btn" href="https://www.paloaltonetworks.com" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div> 
-
-
-                            </div> 
-        
-                   
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-        
-                        </div> 
-                    </div> 
-
-                </div>
-        </div>
-    </section>
--->
-
-<section class="slider-1 client text-dark d-flex align-items-centre py-5" id="client">
-    <div class="container align-items-center ms-auto">
-                <div class="row">
-                    <div class="text-center py-5">
-                        <h5>OUR CLIENT</h5>
-                    <h2 class="py-2">Give Your Trust </h2>
-                    <h4 class="para-light">We have been given trust by them for maintenance their network</h4>
-                    </div>
-                </div> 
-                <div class="row p-2" data-aos="zoom-in">
-                    <div class="col-lg-12">
-                        <div class="slider-container">
-                            <div class="swiper-container card-slider">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div>
-                                            <div class="container d-flex py-4 align-items-center ms-auto">
-                                                <a href="https://www.peruri.co.id" target="_blank"><img class="avatar" src="./assets/images/Peruri.png" alt="Peruri"></a>
-                                            </div>
-                                        </div>     
-                                           
-                                    </div> 
-            
-                                    <div class="swiper-slide">
-                                        <div>
-                                            <div class="container d-flex py-4 align-items-center ms-auto">
-                                                <a href="https://bssn.go.id" target="_blank"><img class="avatar" src="./assets/images/bssn.png" alt="BSSN"></a>
-                                            </div>
-                                        </div>
-                                    </div> 
-            
-                                    <div class="swiper-slide">
-                                        <div class="container d-flex py-4 align-items-center ms-auto">
-                                            <a href="https://barapi.co.id" target="_blank"><img class="avatar" src="./assets/images/bpi.png" alt="Bara Perkasa Investama"></a>
-                                        </div>
-                                    </div> 
-                                    
-                                    <div class="swiper-slide">
-                                        <div>
-                                            <div class="container d-flex p-4 align-items-center ms-auto">
-                                                <a href="https://www.moratelindo.co.id" target="_blank"><img class="avatar" src="./assets/images/moratelindo.png" alt="BSSN"></a>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                    
-                                </div> 
-            
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-            
-                            </div> 
-                        </div>
+  <script>
+    var coll = document.getElementsByClassName("sub-card");
+    var i;
     
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </section> 
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("collapse-card");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+        content.style.maxHeight = null;
+        } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        } 
+    });
+    }
+    </script>
 
-   
-    <section class="contact d-flex text-dark py-3 align-items-center" id="contact">
-        
-        <div class="container" data-aos="fade-right">
-            <h5 class="py-3">CONTACT US</h5>
-            <div class="row">
-                <div class="col-lg-5 d-flex align-items-center ms-auto py-5">
-                    <div class="p-2"><i class="far fa-map fa-3x"></i></div>
-                    <div class="ms-2">
-                        <h6>ADDRESS</h6>
-                        <p>Servio – South Quarter Tower A 8th Floor </p>
-                        <p>Jl. R.A. Kartini Kav 8, Cilandak Barat</p>
-                        <p>Jakarta Selatan</p>
-                        <p>12530</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center ms-auto py-5" >
-                    <div class="p-2"><i class="fas fa-mobile-alt fa-3x"></i></div>
-                    <div class="ms-2">
-                        <h6>PHONE</h6>
-                        <p>(+62) 877-0003-0600</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center ms-auto py-5" >
-                    <div class="p-2"><i class="far fa-envelope fa-3x"></i></div>
-                    <div class="ms-2">
-                        <h6>EMAIL</h6>
-                        <p class="">info@primaoptima.com</p>
-                    </div>
-                </div>
-                </div>
-            </div> 
-        </div> 
-    </section> 
-
-
-    <div class="bottom py-3 text-light" >
-        <div class="container d-flex justify-content-between">
-            <div>
-                <p>Copyright © PT. Prima Optima Solusindo</p><br>
-               
-            </div>
-        </div>
-    </div> 
- 
+  <script type="text/javascript">
+   $('.logo-slider').slick({
+   slidesToShow: 4,
+   slidesToScroll: 1,
+   autoplay: true,
+   autoplaySpeed: 2000,
+   infinite: true,
     
-    <button onclick="topFunction()" id="myBtn">
-        <img src="assets/images/up-arrow.png" alt="alternative">
-    </button>
-    
+   responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true
+      }
+    },
+  ]
+  });
+  </script>
 
-
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/purecounter.min.js"></script> 
-    <script src="./js/swiper.min.js"></script>
-    <script src="./js/aos.js"></script>
-    <script src="./js/script.js"></script>  
+  </body>
 </html>
